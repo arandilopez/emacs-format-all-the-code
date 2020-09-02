@@ -612,6 +612,7 @@ Consult the existing formatters for examples of BODY."
                                     ("_Flow"      . "flow")
                                     ("JavaScript" . "babel")
                                     ("JSX"        . "babel")
+                                    ("JSON"       . "json")
                                     ("Solidity"   . "solidity-parse")
                                     ("TSX"        . "typescript")))))
                  (if pair (cdr pair) (downcase language)))
